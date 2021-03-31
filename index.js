@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 const port = process.env.PORT || 5000;
-const myLiffId = process.env.MY_LIFF_ID;
+const myLiffId = '1655815900-mRY3N46r';
 
 app.use(express.static('public'));
 
